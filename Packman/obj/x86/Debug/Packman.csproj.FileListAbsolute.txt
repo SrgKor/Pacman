@@ -1,0 +1,16 @@
+C:\Users\Julia\AppData\Local\Temporary Projects\Packman\bin\Debug\Packman.exe
+C:\Users\Julia\AppData\Local\Temporary Projects\Packman\bin\Debug\Packman.pdb
+C:\Users\Julia\AppData\Local\Temporary Projects\Packman\obj\x86\Debug\Packman.ControllerMainForm.resources
+C:\Users\Julia\AppData\Local\Temporary Projects\Packman\obj\x86\Debug\Packman.Properties.Resources.resources
+C:\Users\Julia\AppData\Local\Temporary Projects\Packman\obj\x86\Debug\Packman.csproj.GenerateResource.Cache
+C:\Users\Julia\AppData\Local\Temporary Projects\Packman\obj\x86\Debug\Packman.exe
+C:\Users\Julia\AppData\Local\Temporary Projects\Packman\obj\x86\Debug\Packman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Packman.exe
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Packman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Debug\Packman.exe
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Debug\Packman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Packman.ControllerMainForm.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Packman.Properties.Resources.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Packman.csproj.GenerateResource.Cache
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Packman.View.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Packman.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Release\Packman.exe
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Release\Packman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Packman.ControllerMainForm.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Packman.Properties.Resources.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Packman.View.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Packman.csproj.GenerateResource.Cache
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Packman.exe
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Packman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Packman.csprojResolveAssemblyReference.cache

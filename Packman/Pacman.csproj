@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{44613B7D-9FFF-4866-B2F1-68010204524F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pacman</RootNamespace>
+    <AssemblyName>Pacman</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Сергей Королев\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Pacman</ProductName>
+    <PublisherName>Sergey Korolev%27s</PublisherName>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>pacman.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PacmanKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9DCA18C2C33B98B2B63448C120252F7DB13C526D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Pacman_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Being.cs" />
+    <Compile Include="BigDot.cs" />
+    <Compile Include="BigDotImg.cs" />
+    <Compile Include="ControllerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControllerMainForm.Designer.cs">
+      <DependentUpon>ControllerMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CyanGhost.cs" />
+    <Compile Include="CyanGhostImg.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="GameFieldImg.cs" />
+    <Compile Include="GameFieldMap.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="PinkGhost.cs" />
+    <Compile Include="PinkGhostImg.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RedGhost.cs" />
+    <Compile Include="RedGhostImg.cs" />
+    <Compile Include="LittleDots.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="Pacman.cs" />
+    <Compile Include="PacmanImg.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YellowGhost.cs" />
+    <Compile Include="YellowGhostImg.cs" />
+    <EmbeddedResource Include="ControllerMainForm.resx">
+      <DependentUpon>ControllerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="PacmanKey.snk" />
+    <None Include="Pacman_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pacman.ico" />
+    <Content Include="Resources\BigDot\BigDot0.bmp" />
+    <Content Include="Resources\BigDot\BigDot1.bmp" />
+    <Content Include="Resources\BigDot\BigDot2.bmp" />
+    <Content Include="Resources\BigDot\BigDot3.bmp" />
+    <Content Include="Resources\BigDot\BigDot4.bmp" />
+    <Content Include="Resources\BigDot\BigDot5.bmp" />
+    <Content Include="Resources\cyanGhost\cyanGhostDown.bmp" />
+    <Content Include="Resources\cyanGhost\cyanGhostLeft.bmp" />
+    <Content Include="Resources\cyanGhost\cyanGhostRight.bmp" />
+    <Content Include="Resources\cyanGhost\cyanGhostUp.bmp" />
+    <Content Include="Resources\Game Over.bmp" />
+    <Content Include="Resources\GameFields\gameField1.bmp" />
+    <Content Include="Resources\GameFields\gameField2.bmp" />
+    <Content Include="Resources\GameFields\gameField3.bmp" />
+    <Content Include="Resources\GameFields\gameField4.bmp" />
+    <Content Include="Resources\GameFields\gameField5.bmp" />
+    <Content Include="Resources\GetReady.bmp" />
+    <Content Include="Resources\pinkGhost\pinkGhostDown.bmp" />
+    <Content Include="Resources\pinkGhost\pinkGhostLeft.bmp" />
+    <Content Include="Resources\pinkGhost\pinkGhostRight.bmp" />
+    <Content Include="Resources\pinkGhost\pinkGhostUp.bmp" />
+    <Content Include="Resources\redGhost\redGhostDown.bmp" />
+    <Content Include="Resources\redGhost\redGhostLeft.bmp" />
+    <Content Include="Resources\redGhost\redGhostRight.bmp" />
+    <Content Include="Resources\redGhost\redGhostUp.bmp" />
+    <Content Include="Resources\SadGhost\SadGhost.bmp" />
+    <Content Include="Resources\Sounds\eatGhost.wav" />
+    <Content Include="Resources\Sounds\eatclose.wav" />
+    <Content Include="Resources\Sounds\eatcycle.wav" />
+    <Content Include="Resources\Sounds\eatopen.wav" />
+    <Content Include="Resources\Sounds\GameOverSound.wav" />
+    <Content Include="Resources\Sounds\LittleDotSound.wav" />
+    <Content Include="Resources\Sounds\GetReadySound.wav" />
+    <Content Include="Resources\Sounds\PackManDeathSound.wav" />
+    <Content Include="Resources\yellowGhost\yellowGhostDown.bmp" />
+    <Content Include="Resources\yellowGhost\yellowGhostLeft.bmp" />
+    <Content Include="Resources\yellowGhost\yellowGhostRight.bmp" />
+    <Content Include="Resources\yellowGhost\yellowGhostUp.bmp" />
+    <Content Include="Resources\нанесение на карту дорог.bmp" />
+    <Content Include="Resources\blackScreen.bmp" />
+    <None Include="Resources\LittleDot.bmp" />
+    <Content Include="Resources\packman\packmanDown\packManDown31.bmp" />
+    <Content Include="Resources\packman\packmanDown\packManDown32.bmp" />
+    <Content Include="Resources\packman\packmanLeft\packManLeft31.bmp" />
+    <Content Include="Resources\packman\packmanLeft\packManLeft32.bmp" />
+    <Content Include="Resources\packman\packmanRight\packManRight0.bmp" />
+    <Content Include="Resources\packman\packmanRight\packManRight1.bmp" />
+    <Content Include="Resources\packman\packmanRight\packManRight2.bmp" />
+    <Content Include="Resources\packman\packmanRight\packManRight3.bmp" />
+    <Content Include="Resources\packman\packmanRight\packManRight31.bmp" />
+    <Content Include="Resources\packman\packmanRight\packManRight32.bmp" />
+    <Content Include="Resources\packman\packmanRight\packManRight4.bmp" />
+    <Content Include="Resources\packman\packmanRight\packManRight5.bmp" />
+    <Content Include="Resources\packman\packmanDown\packManDown0.bmp" />
+    <Content Include="Resources\packman\packmanDown\packManDown1.bmp" />
+    <Content Include="Resources\packman\packmanDown\packManDown2.bmp" />
+    <Content Include="Resources\packman\packmanDown\packManDown3.bmp" />
+    <Content Include="Resources\packman\packmanDown\packManDown4.bmp" />
+    <Content Include="Resources\packman\packmanDown\packManDown5.bmp" />
+    <Content Include="Resources\packman\packmanLeft\packManLeft0.bmp" />
+    <Content Include="Resources\packman\packmanLeft\packManLeft1.bmp" />
+    <Content Include="Resources\packman\packmanLeft\packManLeft2.bmp" />
+    <Content Include="Resources\packman\packmanLeft\packManLeft3.bmp" />
+    <Content Include="Resources\packman\packmanLeft\packManLeft4.bmp" />
+    <Content Include="Resources\packman\packmanLeft\packManLeft5.bmp" />
+    <Content Include="Resources\packman\packmanUp\packManUp0.bmp" />
+    <Content Include="Resources\packman\packmanUp\packManUp1.bmp" />
+    <Content Include="Resources\packman\packmanUp\packManUp2.bmp" />
+    <Content Include="Resources\packman\packmanUp\packManUp3.bmp" />
+    <Content Include="Resources\packman\packmanUp\packManUp31.bmp" />
+    <Content Include="Resources\packman\packmanUp\packManUp32.bmp" />
+    <Content Include="Resources\packman\packmanUp\packManUp4.bmp" />
+    <Content Include="Resources\packman\packmanUp\packManUp5.bmp" />
+    <None Include="Resources\splashScreen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль Microsoft .NET Framework 4 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Pacman.csproj.GenerateResource.Cache
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Pacman.ControllerMainForm.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Pacman.Properties.Resources.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Pacman.View.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Release\Pacman.exe
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Release\Pacman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Pacman.exe
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Pacman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Release\Pacman.exe.manifest
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Release\Pacman.application
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Pacman.exe.manifest
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Release\Pacman.application

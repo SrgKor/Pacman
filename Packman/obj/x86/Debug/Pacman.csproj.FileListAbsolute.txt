@@ -1,0 +1,40 @@
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.csproj.GenerateResource.Cache
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.ControllerMainForm.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.Properties.Resources.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.View.resources
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Debug\Pacman.exe
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Debug\Pacman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.exe
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.pdb
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Debug\Pacman.exe.manifest
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\bin\Debug\Pacman.application
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.exe.manifest
+C:\Users\Julia\Desktop\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.application
+H:\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.exe
+H:\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.pdb
+H:\C#Projects\Packman\Packman\bin\Debug\Pacman.exe.manifest
+H:\C#Projects\Packman\Packman\bin\Debug\Pacman.application
+H:\C#Projects\Packman\Packman\bin\Debug\Pacman.exe
+H:\C#Projects\Packman\Packman\bin\Debug\Pacman.pdb
+H:\C#Projects\Packman\Packman\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.ControllerMainForm.resources
+H:\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.Properties.Resources.resources
+H:\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.View.resources
+H:\C#Projects\Packman\Packman\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\C#Projects\Packman\Packman\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.exe.manifest
+H:\C#Projects\Packman\Packman\obj\x86\Debug\Pacman.application
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.exe
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.pdb
+I:\C# Examples_2\Packman\Packman\bin\Debug\Pacman.exe.manifest
+I:\C# Examples_2\Packman\Packman\bin\Debug\Pacman.application
+I:\C# Examples_2\Packman\Packman\bin\Debug\Pacman.exe
+I:\C# Examples_2\Packman\Packman\bin\Debug\Pacman.pdb
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.ControllerMainForm.resources
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.Properties.Resources.resources
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.View.resources
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.csproj.GenerateResource.Cache
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.exe.manifest
+I:\C# Examples_2\Packman\Packman\obj\x86\Debug\Pacman.application

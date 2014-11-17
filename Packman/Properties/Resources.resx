@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="blackScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blackScreen.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LittleDot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LittleDot.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManDown0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanDown\packManDown0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManDown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanDown\packManDown1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManDown2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanDown\packManDown2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManDown3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanDown\packManDown3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManDown31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanDown\packManDown31.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManDown32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanDown\packManDown32.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManDown4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanDown\packManDown4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManDown5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanDown\packManDown5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManLeft0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanLeft\packManLeft0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManLeft1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanLeft\packManLeft1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManLeft2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanLeft\packManLeft2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManLeft3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanLeft\packManLeft3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManLeft31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanLeft\packManLeft31.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManLeft32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanLeft\packManLeft32.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManLeft4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanLeft\packManLeft4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManLeft5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanLeft\packManLeft5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManRight0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanRight\packManRight0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManRight1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanRight\packManRight1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManRight2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanRight\packManRight2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManRight3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanRight\packManRight3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManRight31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanRight\packManRight31.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManRight32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanRight\packManRight32.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManRight4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanRight\packManRight4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManRight5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanRight\packManRight5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManUp0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanUp\packManUp0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManUp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanUp\packManUp1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManUp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanUp\packManUp2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManUp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanUp\packManUp3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManUp31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanUp\packManUp31.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManUp32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanUp\packManUp32.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManUp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanUp\packManUp4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packManUp5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packman\packmanUp\packManUp5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splashScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splashScreen.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redGhostDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redGhost\redGhostDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redGhostLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redGhost\redGhostLeft.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redGhostRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redGhost\redGhostRight.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redGhostUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redGhost\redGhostUp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellowGhostDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellowGhost\yellowGhostDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellowGhostLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellowGhost\yellowGhostLeft.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellowGhostRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellowGhost\yellowGhostRight.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellowGhostUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellowGhost\yellowGhostUp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinkGhostDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinkGhost\pinkGhostDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinkGhostLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinkGhost\pinkGhostLeft.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinkGhostRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinkGhost\pinkGhostRight.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinkGhostUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinkGhost\pinkGhostUp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game Over.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cyanGhostDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cyanGhost\cyanGhostDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cyanGhostLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cyanGhost\cyanGhostLeft.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cyanGhostRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cyanGhost\cyanGhostRight.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cyanGhostUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cyanGhost\cyanGhostUp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GetReady" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GetReady.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameOverSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sounds\GameOverSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GetReadySound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sounds\GetReadySound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PackManDeathSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sounds\PackManDeathSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eatclose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sounds\eatclose.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eatopen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sounds\eatopen.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eatcycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sounds\eatcycle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gameField1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameFields\gameField1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gameField2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameFields\gameField2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gameField3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameFields\gameField3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gameField4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameFields\gameField4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gameField5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameFields\gameField5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigDot0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BigDot\BigDot0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigDot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BigDot\BigDot1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigDot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BigDot\BigDot2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigDot3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BigDot\BigDot3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigDot4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BigDot\BigDot4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigDot5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BigDot\BigDot5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SadGhost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SadGhost\SadGhost.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eatGhost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sounds\eatGhost.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
